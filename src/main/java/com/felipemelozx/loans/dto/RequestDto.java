@@ -1,8 +1,8 @@
 package com.felipemelozx.loans.dto;
 
-public record RequestDto(Byte age,
+public record RequestDto(Integer age,
                          String cpf,
                          String name,
-                         Long income,
+                         Double income,
                          String location) {
 }
